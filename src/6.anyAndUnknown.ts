@@ -25,3 +25,20 @@ newValue = [1, 2, 3, 4, 5];
 if (typeof newValue === "string") {
   newValue.toUpperCase();
 }
+
+// Types Check handling in try catch block
+
+//  X Wrong way to handle error in catch block
+try {
+} catch (error: any) {
+  console.log(error.message);
+}
+
+//  Right way to handle error in catch block
+try {
+} catch (error) {
+  if (error instanceof Error) {
+    console.log(error.message);
+  }
+  console.log("Error", error);
+}
