@@ -1,11 +1,13 @@
 {
   "devDependencies": {
+    "@types/axios": "^0.9.36",
     "typescript": "^5.9.3"
   },
   "name": "learning-typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "npx tsc"
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Imtiaz-Ali17314/Learning-TypeScript/issues"
   },
-  "homepage": "https://github.com/Imtiaz-Ali17314/Learning-TypeScript#readme"
+  "homepage": "https://github.com/Imtiaz-Ali17314/Learning-TypeScript#readme",
+  "dependencies": {
+    "axios": "^1.19.0"
+  }
 }
