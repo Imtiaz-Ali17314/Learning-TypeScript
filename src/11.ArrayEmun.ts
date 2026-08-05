@@ -94,7 +94,7 @@ function getBookCategory(category: BookCategoryString): void {
 getBookCategory(BookCategoryString.Science); // Valid
 // getBookCategory("science"); // Error, argument must be of type BookCategoryString
 
-// Hitrogenous Enum --> Enum with mixed values (string and number)
+// Heterogeneous Enum --> Enum with mixed values (string and number)
 enum BookCategoryHeterogeneous {
   IT = "it",
   Philosophy = 1,
